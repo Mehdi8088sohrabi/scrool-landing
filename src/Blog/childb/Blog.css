@@ -1,0 +1,48 @@
+.pblo , .h1blo{
+    text-align: center;
+}
+.h1blo{
+    font-size: 50px;
+}
+.pblo{
+    color: gray;
+}
+/* flex */
+
+.contentblo{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    
+}
+
+.imgblo{
+    width: 350px;
+}
+.imgblog{
+    width: 100%;
+    height: auto;
+}
+
+.titlrblo{
+    text-align: justify;
+    margin: 10px;
+}
+
+.timeblo{
+    position: relative;
+
+}
+
+.childtimrblo{
+    color: gray;
+    position: absolute;
+    left: 20px;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

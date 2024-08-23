@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(230, 234, 236);
+    user-select: none;
+}
+
+.body{
+    background-image: url(/public/img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    position: sticky;
+    background-attachment: fixed;
+}
+.body h1{
+    font-size: 70px;
+}
+.body h1 , p{
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+}

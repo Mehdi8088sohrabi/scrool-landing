@@ -1,0 +1,31 @@
+
+.continer {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.continer h1, .continer a {
+    color: white;
+}
+
+.continer a {
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.adress {
+    position: absolute;
+    right: 40px;
+}
+
+.continer h1 {
+    position: absolute;
+    left: 40px;
+}
